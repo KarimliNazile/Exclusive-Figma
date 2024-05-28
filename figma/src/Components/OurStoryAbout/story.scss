@@ -1,0 +1,37 @@
+#OurStoryAbout {
+    height: 80vh;
+    width: 100%;
+.StoryText{
+    margin-left: 100px;
+}
+    .OurStoryArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+        margin: 60px 60px;
+
+        .OurStoryLeft {
+            margin-left: 20px;
+
+            .OurStoryText {
+
+                h1 {
+                    font-size: 50px;
+                }
+
+                p {
+                    font-size: 19px
+                }
+            }
+
+        }
+
+        .OurStoryRight {
+            img {
+                width: 800px;
+            }
+        }
+    }
+
+}

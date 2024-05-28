@@ -1,0 +1,55 @@
+#FounderAbout {
+    margin: 60px 120px;
+
+    .FounderArea {
+
+
+        margin: auto;
+
+
+
+        .FounderInBox {
+
+            height: 564px;
+
+            .ImageFounder {
+
+                text-align: center;
+                height: 430px;
+                background-color: rgb(221, 219, 219);
+
+                img {
+
+                    height: 100%;
+                }
+            }
+
+            .IconFounder {
+                gap: 10px;
+                display: flex;
+                font-size: 22px;
+
+                .FiTIcon {
+                    font-size: 22px;
+
+
+                    &:hover {
+                        color: #DB4444;
+                    }
+                }
+            }
+
+
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+
+        }
+    }
+}
